@@ -1,0 +1,93 @@
+/* CustomerSignUp.css */
+
+/* Card styling */
+.card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Hover effect for card */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Card body styling */
+.card-body {
+  padding: 20px;
+}
+
+/* Title styling */
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #343a40;
+  text-align: center;
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+.label-control {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #495057;
+}
+
+/* Input and textarea styling */
+.form-control {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #c82333;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+  outline: none;
+}
+
+/* Error message styling */
+.error-message {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #dc3545; /* Red color for error messages */
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #dc3545; /* Red color */
+  border-color: #dc3545;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #c82333; /* Darker red */
+  border-color: #bd2130;
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Link styling */
+a {
+  color: #c82333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #c82333;
+}

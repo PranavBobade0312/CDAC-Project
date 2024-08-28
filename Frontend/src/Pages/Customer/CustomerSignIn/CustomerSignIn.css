@@ -1,0 +1,110 @@
+Style for the card container
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-color: #fff;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02); /* Slightly enlarge card on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+}
+
+/* Style for the card body */
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Style for the form title */
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+  animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+}
+
+/* Style for form controls */
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff; /* Highlight border on focus */
+  outline: none;
+}
+
+/* Style for labels */
+.label-control {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style for error messages */
+.error-message {
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  color: #dc3545; /* Red color for error messages */
+  animation: slideIn 0.5s ease-in-out; /* Slide-in animation for errors */
+}
+
+/* Style for the button */
+.btn-primary {
+  background-color: #dc3545; /* Red color */
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #c82333; /* Darker red on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Style for the link */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Darker blue on hover */
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateY(-10px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}

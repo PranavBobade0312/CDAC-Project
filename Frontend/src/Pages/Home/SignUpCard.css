@@ -1,0 +1,99 @@
+/* SignUpCard.css */
+
+/* General card styles */
+.custom-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  color: white; /* White text color for better contrast */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-color: #e4b4b4; /* Red background for all cards */
+}
+
+.card-text{
+  color: black;
+}
+.custom-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Ensure all cards have the same height */
+.col-md-4 {
+  display: flex;
+  align-items: stretch;
+}
+
+.custom-card img {
+  width: 50%; /* Adjust image width for better alignment */
+  margin-bottom: 15px;
+}
+
+/* Card title and text styling */
+.card-title {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #ea1212; /* Ensure the title is visible */
+}
+
+.card-text {
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0e0d0d; /* White color for description text */
+  line-height: 1.5; /* Increase line height for better readability */
+}
+
+/* Custom styles for list items */
+.custom-list-item {
+  background-color: transparent;
+  border: none;
+}
+
+/* Custom dropdown button */
+.btn-custom {
+  background-color: #ffffff; /* White button for contrast */
+  border: none;
+  color: #dc3545; /* Red color for text */
+  font-size: 14px;
+}
+
+.btn-custom:hover {
+  background-color: #cc4242;
+  color: #c82333; /* Darker red text on hover */
+}
+
+/* Custom dropdown menu */
+.custom-dropdown-menu {
+  background-color: #c3bbbb;
+  color: black;
+  border: 1px solid #d42c2c;
+}
+
+.custom-dropdown-menu .dropdown-item {
+  color: black;
+}
+
+.custom-dropdown-menu .dropdown-item:hover {
+  background-color: #9b9391;
+}
+
+#dropdownMenuButton1{
+  color: white;
+  background-color: #bf4e4e;
+}
+
+#dropdownMenuButton2{
+  color: white;
+  background-color: #bf4e4e;
+}
+#dropdownMenuButton3{
+  color: white;
+  background-color: #bf4e4e;
+}
